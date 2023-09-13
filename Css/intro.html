@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro||CSS</title>
+    <link rel="stylesheet" href="/Css/css/intro.css">
+</head>
+<style>
+    .para, #para
+    {
+        background: #ccc;
+        padding: 15px;
+    }
+
+    #para1{ color: tomato;   }
+
+    h3
+    {
+        text-decoration: underline;
+        color: red;
+    }
+
+    li
+    {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body
+    {
+        background-color: #ccc;
+    }
+
+    *
+    {
+        background-color: aqua;
+        /* padding: 0;
+        margin: 0;
+        box-sizing: border-box; */
+    }
+</style>
+<body>
+    <h3>Css Intro</h3>
+    <pre>Definition: Cascading Style Sheets</pre>
+
+    <p>it helps to decribe how the HTML elements are to be displayed on Screen, paper , or in other media</p>
+
+    <li>it also saves time while working, it can controls the layout of mutiple web pages all at once</li>
+
+    <h3>TYPES OF CSS CONNECTION</h3>
+    <ol>
+        <li>Inline CSS: is a way of styling HTML within it's Elements TAGS as an Attributes calling up Style="property: value; ..."</li>
+
+        <li>Internal Css: this is by using Style TAg placed below head closing tag above body opening tag still in the same HTML file </li>
+
+        <li>External Css: this is handy as a stylesheet placed outside the HTML file best in a folder then we link in head section below the title using the Link TAg then inside the style sheet no Tag needed </li>
+    </ol>
+
+    <h3>CSS Comment:</h3>
+    <p>Same as in HTML using crlt / but the sign is  /* content */ </p>
+
+    <h3>CSS Syntax for internal and external:</h3>
+    <p>it starts with a Selector e.g HTML Element tags, class as attributes which is selected using .dot, id as an Attributes which is selected using #, universal means all the HTML elements inside the body Tag which is selected using * </p>
+
+    <p>Css Declaration: Selector { property: value; } </p>
+
+    <h2>examples of css connections</h2>
+    <p class="para" id="para1">Lorem, ipsum dolor <span style="color:red; font-size: x-large;">Here i'm an inline Element</span> sit amet consectetur adipisicing elit. A, dolores quisquam delectus dolorum officia ad dolore eos aliquid veritatis rem quo! Delectus iure, consectetur saepe qui quia ea dolores veniam?</p>
+
+    <p class="para1" id="para">Lorem, ipsum dolor <span style="color:blue; font-size: x-large;">Here i'm an inline Element</span> sit amet consectetur adipisicing elit. A, dolores quisquam delectus dolorum officia ad dolore eos aliquid veritatis rem quo! Delectus iure, consectetur saepe qui quia ea dolores veniam?</p>
+</body>
+</html>

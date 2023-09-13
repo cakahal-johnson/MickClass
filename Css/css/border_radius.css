@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    background-color: #ccc;
+ }
+ 
+ .box
+ {
+     background: red;
+     width: 100px;
+     height: 100px;
+     padding: 35px;
+     text-align: center;
+     /* display: inline; */
+     color: #fff;
+     text-transform: uppercase;
+ }
+ 
+ .one
+ {
+     background-color: #000;
+     border-radius: 50px;
+ }
+ 
+ .two
+ {
+     border-radius: 35px 10px;
+ }
+ 
+ .three
+ {
+     border-radius: 10px 35px;
+ }
+ 
+ .four
+ {
+     border-radius: 10px 50px 70px;
+ }
+ 
+ .five
+ {
+     width: 130px;
+     height: 175px;
+     background-color: tan;
+     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+     box-shadow: 2px 4px 8px tan;
+ }
+ 
+ .six
+ {
+     width: 0;
+     height: 0;
+     border-top: 60px solid #ccc;
+     border-right: 60px solid #000;
+     border-bottom: 60px solid #000;
+     border-left: 60px solid #000;
+ 
+     border-top-left-radius: 60px ;
+     border-top-right-radius: 60px ;
+     border-bottom-left-radius: 60px ;
+     border-bottom-right-radius: 60px ;
+     padding: 0;
+     
+ }
+ 
+ /* color values #ccc means Hex-code gray */
+ /* px means pixel 10px to rem or rm */
+ 
+ 
+ 
+ 
+ 

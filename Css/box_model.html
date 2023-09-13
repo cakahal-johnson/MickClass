@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model</title>
+</head>
+<body>
+    <h3>CSS Box Model</h3>
+    <p>Is used to wrap Hmtl Element, which consists of margins, borders, padding and the actual content</p>
+
+    <h3>Different parts of css Box Model</h3>
+    <ol>
+        <li>Content: is where the images and text appears</li>
+        
+        <li>Padding: it clears an area around the content whereby the padding is transparent</li>
+        
+        <li>Border: it goes around the padding and the content using three params 1-size 2-typeOf 3-color</li>
+        
+        <li>Margin: it also clears an area outside the border the border, it's also transparent</li>
+    </ol>
+
+    <div style="background: #ccc; padding: 15px;">
+
+        <p class="example1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non minus dolore, deserunt eligendi nostrum illum dolorum earum iure quis molestiae alias repellat! Error suscipit dicta, animi asperiores assumenda fugit recusandae?</p>
+    </div>
+        
+        <style>
+        .example1
+        {
+            background-color: red;
+            padding: 20px;
+            /* border: 2px solid green; */
+            /* border: 5px dashed green; */
+            /* border: 5px dotted green; */
+            border: 5px double green;
+            margin: 15px;
+
+        }
+    </style>
+
+<div style="background: #ccc; padding: 15px; margin: 5px;">
+
+    <p class="example2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non minus dolore, deserunt eligendi nostrum illum dolorum earum iure quis molestiae alias repellat! Error suscipit dicta, animi asperiores assumenda fugit recusandae?</p>
+</div>
+
+<style>
+    .example2
+    {
+        background: green;
+        border-right: 2px solid red;
+        border-left: 2px solid red;
+        /* top and bottom */
+        /* padding: 10px; */
+        /* same to padding and margin */
+        /* padding: 10px 50px; */
+        /* 1-para is top and bottom */
+        /* 2-para is right and left */
+        padding: 20px 5px 50px 100px ;
+        /* Top right bottom left */
+        /* same as for margin */
+    }
+</style>
+
+    
+
+</body>
+</html>

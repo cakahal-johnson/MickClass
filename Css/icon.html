@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icon||Css</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<style>
+    .blink
+    {
+        animation: flash 2s steps(5, start) infinite;
+    }
+
+    @keyframes flash {
+        to{
+            visibility: hidden;
+        }
+    }
+</style>
+
+<body>
+
+    <h3>Icon</h3>
+
+    <nav>
+        <i class="fas fa-3x fa-house-medical"></i>
+        <a href="">Home</a> <br> <br>
+        <i class="fas fa-user-cog"></i>
+        <a href="">Login</a>
+    </nav>
+
+    <div style="margin-top: 15px;">
+        <i class="fas fa-3x fa-spin fa-gear"></i> Loading...
+    </div>
+
+    <div style="margin-top: 15px;">
+        <i class="fas fa-3x fa-shake fa-mobile"></i> Ringing...
+    </div>
+
+    <div style="margin-top: 15px;">
+        <i class="fas fa-3x fa-bounce fa-soccer-ball"></i> Goal...
+    </div>
+
+    <div style="margin-top: 15px;">
+        <i class="fas fa-3x blink fa-blink fa-bullseye"></i> Flash...
+    </div>
+
+
+    
+</body>
+</html>
